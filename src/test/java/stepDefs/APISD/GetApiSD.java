@@ -1,8 +1,8 @@
-package stepDefs;
+package stepDefs.APISD;
 
-import Core.ApiCall;
-import Core.DatabaseManager;
-import Core.HeaderFormatHelper;
+import Core.API.ApiCall;
+import Core.API.DatabaseManager;
+import Core.API.HeaderFormatHelper;
 import Repository.localRepo.dbModel.GetApiDBModel;
 import Repository.remoteRepo.responseRepo.UserGetApiResponseModel;
 import io.cucumber.java.en.Given;
@@ -14,7 +14,7 @@ import io.restassured.response.Response;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import static Core.CoreContainHelper.base_url;
+import static Core.API.CoreContainHelper.base_url;
 
 public class GetApiSD {
     String url;

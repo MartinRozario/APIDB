@@ -1,4 +1,4 @@
-package Core;
+package Core.API;
 
 import io.restassured.RestAssured;
 import io.restassured.config.HttpClientConfig;

@@ -1,4 +1,4 @@
-package Core;
+package Core.API;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

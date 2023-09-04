@@ -1,5 +1,5 @@
 Feature:
-  @getApi
+  @Api
   Scenario Outline: get api check of pages
     Given user has the base api
     When user call the '<parameter>' and '<paramsValue>'
