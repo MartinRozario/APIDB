@@ -42,7 +42,7 @@ task automationTest(type: Test) {
         String testValue = System.getProperty("Type");
         System.out.println(testValue)
 
-        if (testValue.equals("addCustomer")) {
+        if (testValue.equals("Hybrid")) {
             suites "src/test/api.xml"
         }
     }
